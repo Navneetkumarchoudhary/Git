@@ -18,7 +18,7 @@ let fs= require("fs");
             }
         } 
     }catch(err){
-        console.log("Some error occured");
+        console.log("Some error occured, possibly n was greater than expected");
     }
     
 })();
